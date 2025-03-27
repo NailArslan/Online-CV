@@ -1,12 +1,13 @@
 ﻿@{
+    // Sets the title of the page that appears in the browser tab
     ViewBag.Title = "My CV";
 }
 
-<!-- Add Bootstrap CDN or your preferred CSS framework in your _Layout.cshtml -->
-
+<!-- Main container with padding and styled background -->
 <div class="container mt-5 p-4" style="background: linear-gradient(to right, #f8f9fa, #e9ecef); border-radius: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
-    <!-- 🔹 Introduction -->
+    <!-- 🔹 Introduction Section -->
+    <!-- Brief welcome message introducing the CV -->
     <section class="text-center mb-5">
         <h1 class="display-4" style="color: #007bff;">Welcome to My Online CV</h1>
         <p class="lead" style="color: #495057;">
@@ -14,7 +15,8 @@
         </p>
     </section>
 
-    <!-- 🌟 Personal Info -->
+    <!-- 👤 Personal Information Section -->
+    <!-- Displays full name, title, contact info, and location -->
     <section class="mb-5">
         <h2 class="mb-3" style="color: #17a2b8;"> Personal Information</h2>
         <div class="card p-4" style="background-color: #e3f2fd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
@@ -26,7 +28,8 @@
         </div>
     </section>
 
-
+    <!-- 🧠 Professional Summary Section -->
+    <!-- Highlights career goals, strengths, and major experiences -->
     <section class="mb-5">
         <h2 class="mb-3" style="color: #343a40;">💼 Professional Summary</h2>
         <p class="lead" style="color: #495057;">
@@ -34,46 +37,49 @@
         </p>
     </section>
 
-
-    <!-- 🌟 Achievements -->
+    <!-- 🏆 Achievements Section -->
+    <!-- Lists awards and notable accomplishments -->
     <section class="mb-5">
         <h2 class="mb-3" style="color: #17a2b8;">🏆 Achievements</h2>
         <ul class="list-group">
-            <li class="list-group-item">Gold medal in Eskom EXPO international stage(2015)</li>
-            <li class="list-group-item">Bronze medal in Chess school tournament(2012)</li>
+            <li class="list-group-item">Gold medal in Eskom EXPO international stage (2015)</li>
+            <li class="list-group-item">Bronze medal in Chess school tournament (2012)</li>
         </ul>
     </section>
 
-    <!-- 💼 Work Experience -->
+    <!-- 💼 Work Experience Section -->
+    <!-- Work history with positions, durations, and responsibilities -->
     <section class="mb-5">
         <h2 class="mb-3" style="color: #28a745;">💼 Work Experience</h2>
         <div>
             <h5>Admin/Developer – Clarusway</h5>
             <p><strong>Duration:</strong> Jan 2023 – September 2023</p>
-            <p>Worked on over 50 projects, biggest one being a full on cloud network implementation for a Hospital brand in turkey.</p>
+            <p>Worked on over 50 projects, biggest one being a full-on cloud network implementation for a hospital brand in Turkey.</p>
         </div>
         <hr />
         <div>
             <h5>Intern – Canyon Protection Service</h5>
             <p><strong>Duration:</strong> Feb 2025 – Ongoing</p>
-            <p>Helping fix companys Electronic Reporting</p>
+            <p>Helping fix the company's electronic reporting system.</p>
         </div>
     </section>
 
-    <!-- 🎓 Education -->
+    <!-- 🎓 Education & Certifications Section -->
+    <!-- Educational background including schools and dates -->
     <section class="mb-5">
         <h2 class="mb-3" style="color: #ffc107;">🎓 Education & Certifications</h2>
         <ul class="list-group">
             <li class="list-group-item">
-                Computer Science – Varsity Collage (2023-2025)
+                Computer Science – Varsity College (2023–2025)
             </li>
             <li class="list-group-item">
-                Horizon HighSchool (2017-2022)
+                Horizon High School (2017–2022)
             </li>
         </ul>
     </section>
 
-    <!-- 🔧 Skills -->
+    <!-- 🔧 Technical Skills Section -->
+    <!-- Lists programming languages, tools, platforms, and experience -->
     <section class="mb-5">
         <h2 class="mb-3" style="color: #6f42c1;">🔧 Technical Skills</h2>
         <div class="row">
@@ -103,22 +109,14 @@
         </div>
     </section>
 
-
-    <!-- 📂 Projects -->
+    <!-- 📂 Projects Section -->
+    <!-- Showcases project work with brief descriptions -->
     <section class="mb-5">
         <h2 class="mb-3" style="color: #dc3545;">📂 Projects & Portfolio</h2>
         <div class="card mb-3">
             <div class="card-body">
                 <h5 class="card-title">Online CV Website</h5>
-                <p class="card-text">This very website was built using ASP.NET MVC and deployed using Render.</p>
-                <a href="https://github.com/yourusername/online-cv" class="btn btn-outline-primary btn-sm" target="_blank">GitHub Link</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Task Management System</h5>
-                <p class="card-text">A full-stack task manager with user authentication and role-based access.</p>
-                <a href="https://github.com/yourusername/task-manager" class="btn btn-outline-primary btn-sm" target="_blank">GitHub Link</a>
+                <p class="card-text">Worked on over 50 projects, biggest one being a full-on cloud network implementation for a hospital brand in Turkey.</p>
             </div>
         </div>
     </section>
