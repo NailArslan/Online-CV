@@ -8,8 +8,8 @@ WORKDIR /src
 COPY . .
 
 # Restore and publish the app
-RUN dotnet restore "./Online_CV.csproj"
-RUN dotnet publish "./Online_CV.csproj" -c Release -o /app/publish
+RUN dotnet restore "./Online CV.csproj"
+RUN dotnet publish "./Online CV.csproj" -c Release -o /app/publish
 
 # Final runtime image
 FROM base AS final
