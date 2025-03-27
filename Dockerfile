@@ -15,4 +15,4 @@ RUN dotnet publish "./Online_CV.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "Online_CV.dll"]
+ENTRYPOINT ["dotnet", "Online CV.dll"]
